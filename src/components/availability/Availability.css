@@ -1,0 +1,52 @@
+.day-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.day-container .day-switch {
+  flex: 1;
+}
+
+.time-slots-container {
+  flex: 2;
+  margin-left: 1rem;
+}
+
+.time-slots-container .input-group {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.time-slots-container .input-group .form-control {
+  width: auto;
+  flex: 1;
+}
+
+.time-slots-container .input-group .btn,
+.time-slots-container .input-group .dropdown-toggle {
+  margin-left: 0.5rem;
+}
+
+.dropdown-scrollable {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 800px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.d-flex.justify-content-between {
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+    .card-body {
+      font-size: 0.8rem; /* Adjust font size for smaller screens */
+    }
+  }
+  

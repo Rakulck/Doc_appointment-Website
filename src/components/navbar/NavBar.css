@@ -1,0 +1,19 @@
+/* src/components/NavBar.css */
+
+/* Ensure the navbar links are centered and have appropriate spacing */
+.navbar {
+  margin-bottom: 20px;
+  background-color: #18A0FB;
+}
+
+.navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link {
+  color:whitesmoke !important; /* Customize link color */
+  margin: 0 10px; /* Adjust spacing between links */
+}
+
